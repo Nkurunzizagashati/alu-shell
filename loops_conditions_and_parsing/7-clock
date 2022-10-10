@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#stop watch
+s=1;
+while [[ $s -le 60 ]];
+do
+if [[ $s -eq 60 ]]
+	then
+		echo "Hour: 1";
+else
+echo "$s";
+fi
+s=$((s+1));
+done
+h=1;
+while [[ $h -lt 10 ]];
+do
+	echo "$h";
+	h=$((h+1));
+done
