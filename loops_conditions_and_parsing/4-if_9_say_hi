@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#using while and if
 c=0;
 while [[ c -lt 9 ]];
 do
