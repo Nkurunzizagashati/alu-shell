@@ -3,4 +3,5 @@
 fab=10
 for i in $(seq $fab); do
 echo "Best School";
+i=$((a+1));
 done
