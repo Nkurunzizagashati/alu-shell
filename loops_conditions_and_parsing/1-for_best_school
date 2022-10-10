@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+fab=10
+for i in $(seq $fab); do
+echo "Best School";
+done
