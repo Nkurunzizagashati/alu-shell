@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # using until loop
-count=0
-until [ $counts -eq '9' ] 
+count=11
+until [[ $count -eq 1 ]]; 
 do
-echo "Best School"
-count=$(($count+1))
+echo "Best School";
+count=$((count-1));
 done
+
