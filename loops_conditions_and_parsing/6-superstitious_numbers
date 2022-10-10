@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#using case statement
 c=1;
 while [[ c -lt 21 ]]; 
 do
