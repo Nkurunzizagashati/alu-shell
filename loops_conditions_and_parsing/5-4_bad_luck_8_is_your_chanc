@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#while,elif, and else
 c=0;
 while [[ $c -lt 10 ]]; 
 do
