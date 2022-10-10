@@ -13,9 +13,6 @@ echo "bad luck from Japan";;
 17 )
 echo $c
 echo "bad luck from Italy";;
-20 )
-echo $c
-echo "sylvain@ubuntu$";;
 *)
 echo "$c";;
 esac
