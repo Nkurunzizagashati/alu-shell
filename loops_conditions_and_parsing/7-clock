@@ -1,19 +1,14 @@
 #!/usr/bin/env bash
 #stop watch
-s=1;
-while [[ $s -le 60 ]];
+h=0;
+while [[ $h -lt 13 ]];
 do
-if [[ $s -eq 60 ]]
-	then
-		echo "Hour: 1";
-else
-echo "$s";
-fi
-s=$((s+1));
-done
-h=1;
-while [[ $h -lt 10 ]];
-do
-	echo "$h";
+	echo "HOURS: $h";
+	m=1;
+	while [[ $m -lt 60 ]];
+	do
+		echo $m;
+		m=$((m+1));
+	done
 	h=$((h+1));
 done
