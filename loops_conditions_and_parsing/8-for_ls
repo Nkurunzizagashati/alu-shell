@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#list the content of a current working directory with only the part of the name after the first dash is displayed.
+
+for a in * 
+do
+echo "$a" | cut -d'-' -f2
+done
